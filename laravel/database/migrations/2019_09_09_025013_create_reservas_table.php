@@ -13,7 +13,7 @@ class CreateReservasTable extends Migration
      */
     public function up()
     {
-        Schema::create('reservas', function (Blueprint $table) { //Criando Migration reservas
+        Schema::create('reservas', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->date('data');
 
